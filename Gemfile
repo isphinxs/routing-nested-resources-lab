@@ -9,6 +9,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootsnap'
 
 group :development, :test do
+  gem "byebug"
   gem 'pry'
   gem 'capybara'
   gem 'rspec-rails'
